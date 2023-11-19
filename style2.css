@@ -1,0 +1,840 @@
+*
+{
+margin:auto;
+font-family: 'Nunito', sans-serif;
+}
+
+header
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:30px 5%;
+}
+
+.Content.hello{
+    padding-top:30px;
+    display:flex;
+}
+
+
+
+.hello2{
+    display:flex;
+}
+
+.sizeDisplay{
+    display: flex;
+    
+    height: 50px;
+}
+
+
+.form-control{
+
+    height: 50px;
+    width: 400px;
+
+    
+}
+
+.textBox2{
+    display:flex;
+  
+}
+
+.form-check-label{
+    color:brown;
+}
+
+
+.label1{
+    color:white;
+}
+
+
+.label2{
+    color:brown;
+    font-size: 19px;
+}
+
+
+.btnGood{
+    color:white;
+    background:transparent;
+    border-radius: 45px;
+    border:2px solid white;
+    height:50px;
+    width:180px;
+    font-size: 22px;
+}
+.btnGood2{
+    color:brown;
+    background:transparent;
+    border-radius: 45px;
+    border:2px solid brown;
+    height:50px;
+    width:180px;
+    font-size: 22px;
+}
+
+.textarea{
+    min-height:100px;
+    color: black;
+}
+
+.header2
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:10px 2%;
+}
+
+.logo
+{
+position:relative;
+max-width: 100px;
+cursor: pointer;
+margin:0;
+}
+
+.logo2
+{
+position:relative;
+max-width: 80px;
+cursor: pointer;
+margin-right:180px;
+}
+
+button
+{
+margin:0;
+background-color: transparent;
+color:whitesmoke;
+border:2px solid white;
+cursor:pointer;
+transition:all 0.2s ease 0s;
+border-radius: 50px;
+text-decoration: none;
+font-weight: 400;
+font-size: 16px;
+padding:9px 25px;
+}
+
+.contactBtn2
+{
+margin:0;
+background-color: transparent;
+color:black;
+border:2px solid black;
+cursor:pointer;
+transition:all 0.2s ease 0s;
+border-radius: 50px;
+text-decoration: none;
+font-weight: 400;
+font-size: 16px;
+padding:9px 25px;
+}
+
+.contactBtn2:hover{
+    background:rgb(213, 210, 210);
+}
+
+button:hover
+{
+background:grey;
+}
+
+ul
+{
+padding-left:0px;
+}
+
+.newline
+{
+display: inline-block;
+padding: 0px 15px;
+margin:0;
+}
+
+nav{
+margin: 0;
+display: flex;
+}
+
+
+.newli.buttonbig{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.CTone{
+    color:white;
+    font-size: 60px;
+}
+
+.newli
+{
+transition:all 0.3s ease 0s;   
+text-decoration: none;
+font-weight: 400;
+color: white;
+list-style: none;
+font-size: 16px;
+margin:0;
+}
+
+.nav-link .links
+{
+transition:all 0.3s ease 0s;   
+text-decoration: none;
+font-weight: 400;
+color: black;
+font-size: 16px;
+list-style: none;
+margin:0;
+}
+
+.changelink
+{
+transition:all 0.3s ease 0s;   
+text-decoration: none;
+font-weight: 400;
+color: black;
+font-size: 16px;
+list-style: none;
+margin:0;
+}
+
+.nav-link
+{
+display: flex;
+margin:15px 40px;
+}
+
+li::after
+{
+content:'';
+width: 0%;
+height:2px;
+background:white;
+display:block;
+margin:auto;
+transition:0.5s;
+}
+
+li:hover::after
+{
+width:100%;
+}
+
+.alinks::after
+{
+content:'';
+width: 0%;
+height:2px;
+background:black;
+display:block;
+margin:auto;
+transition:0.5s;
+}
+
+.alinks:hover::after
+{
+width:100%;
+}
+
+.Content
+{
+top:0%;
+left:0%;
+width:100%;
+display:flex;
+padding-top:100px ;
+float:left;
+}
+
+.Content .textBox
+{
+max-width: 500px;
+margin:0;
+float: left;
+color:white;
+padding-left:120px;
+}
+
+.Content .textBox h2
+{
+color: white;
+font-size: 4.8em;
+line-height: 1.3em;
+font-weight: 500;
+white-space: nowrap;
+}
+
+h5
+{
+padding-top: 5px;
+font-size: 22px;
+}
+
+.Content .textBox h2 span
+{
+color: rgb(100, 60, 27);
+font-size: 1.2em;
+font-weight: 900;
+text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.card
+{
+width: 170px;
+height:200px;
+border-radius: 10px;
+padding: 15px 25px;
+cursor: pointer;
+margin: 10px 15px;
+background-image:url(images/mocha.jpg) ; 
+background-size: cover; 
+transition: transform 0.5s;
+font-size: 22px;
+}
+
+.card1
+{
+background-image:url(images/Latte.jpg) ; 
+color: whitesmoke;
+}
+
+.card2
+{
+background-image:url(images/mocha.jpg) ; 
+color: #333;
+}
+
+
+.card3
+{
+background-image:url(images/americano.jpg) ; 
+color: #333;
+}
+
+.card4
+{
+background-image:url(images/cappucino.jpg) ; 
+color: whitesmoke;
+}
+
+.card:hover
+{
+transform: translateY(-10px);
+}
+
+
+.container
+{
+display: flex;
+}
+
+.row1
+{
+display: flex;
+flex-direction: row;
+float: right;
+margin:0;
+} 
+
+.row2
+{
+display: flex;
+flex-direction: row;
+float: right;
+margin:0;
+} 
+
+.column
+{
+display: flex;
+flex-direction: column;
+padding-top:230px;
+padding-right:50px;
+height: 100%;
+float: right;
+overflow: hidden;
+margin:0;
+}
+
+.backg
+{ 
+background-image: linear-gradient(rgba(121, 58, 9, 0),rgba(133, 70, 3, 0.435)),url(images/bg3.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+width:100vw;
+margin: 0;
+padding:0;
+}
+
+.backg2
+{
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(rgba(133, 70, 3, 0.435),rgba(121, 58, 9, 0)),url(images/bg7.jpg);
+height: 100vh;
+width:100vw;
+margin: 0;
+padding:0;
+}
+
+
+.backg3
+{
+background-position: center;
+background-size: cover;
+background-image: url(images/finalbg3.jpg);
+height: 100vh;
+width:100%;
+margin: 0;
+padding:0;
+}
+
+.coffeeSection
+{
+display:flex;
+float:right;
+}
+
+.section
+{
+width: 100%;
+min-height: 100vh;
+}
+
+.container2
+{
+width:80%;
+display:block;
+padding-top:150px;
+}
+
+.content-section
+{
+float:left;
+width:55%;
+    
+}
+
+.content-section .title
+{
+text-transform: uppercase;
+font-size:40px;
+}
+
+.content-section .content h3
+{
+margin-top:20px;
+font-size: 24px;
+color: #5d5d5d;
+}
+
+.content-section .content p
+{
+margin-top: 10px;
+font-size: 22px;
+font-family: sans-serif;
+line-height: 1.5;
+}
+
+.button2
+{
+background-color: transparent; 
+border:2px solid black;
+color: black;
+padding: 20px 40px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top:30px;
+}
+
+.button2:hover
+{
+background:rgb(207, 204, 204);
+}
+
+.button2Text
+{
+color:black;
+text-decoration: none;
+}
+
+.button3
+{
+background-color: transparent; 
+border:2px solid white;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 23px;
+margin-top:30px;
+}
+
+.button3:hover
+{
+background:rgb(207, 204, 204);
+}
+
+.button3Text
+{
+color:white;
+text-decoration: none;
+}
+
+
+.AboutImage
+{
+float: right;
+width: 40%;
+}
+
+.AboutImage img
+{
+width:100%;
+height:auto;
+margin-top:50px;
+}
+
+.title2
+{
+display:flex;
+}
+
+.backg4
+{
+background-position:center;
+background-size: cover;
+background-image: linear-gradient(rgba(90, 89, 88, 0.822),rgba(94, 94, 94, 0.082)),url(images/MochaImage.jpg);
+height: 45vh;
+width:100%;
+margin: 0;
+padding:0;
+position:relative;
+}
+
+.title5
+{
+margin-top:110px;
+color:white;
+font-size: 50px;
+}
+
+.title6
+{
+margin-top:0px;
+color:black;
+font-size: 50px;
+}
+
+.para
+{
+margin:60px 80px;
+display:flex;
+}
+
+.para4
+{
+margin:10px 80px;
+display:flex;
+}
+
+.marginCoffee
+{
+margin:0px 80px;
+}
+
+.information
+{
+height:30vh; 
+}
+
+.information2
+{
+display:flex;
+height:60vh;
+}
+
+.information3
+{
+display:flex;
+height:60vh;
+background-color: rgba(150, 150, 150, 0.206);
+}
+
+.information4
+{
+display:flex;
+height:60vh;
+}
+
+.alinks
+{
+display: inline-block;
+padding: 0px 15px;
+margin:0;
+}
+
+.contactNew
+{
+margin:15px 40px;
+}
+
+.title3
+{
+display: flex;
+background-color: white;
+position:absolute;
+width: 100%;
+height: 80px;
+bottom:0;
+border-radius: 30px 30px 0px 0px;
+}
+
+.latteBack
+{ 
+background-image: url(images/Latte.jpg);
+background-position: center;
+background-size: cover;
+height: 100%;
+width:100%;
+margin:5px;
+padding:0;
+}
+
+.cappucinoBack
+{ 
+background-image: url(images/cappucino.jpg);
+background-position: center;
+background-size: cover;
+height: 100%;
+width:100%;
+margin:5px ;
+padding:0;
+}
+
+.mochaBack
+{ 
+background-image: url(images/mocha.jpg);
+background-position: center;
+background-size: cover;
+height: 100%;
+width:100%;
+margin:5px ;
+padding:0;
+}
+
+.americanoBack
+{ 
+background-image: url(images/americano.jpg);
+background-position: center;
+background-size: cover;
+height: 40vh;
+width:25vw;
+margin:5px;
+padding:0;
+}
+
+.otherCoffees
+{
+display: flex;
+width:100%;
+margin:100px 0px;
+position: absolute;
+}
+
+.PreCoffee
+{
+height: 40vh;
+width:25vw; 
+}
+
+.information5
+{
+background-color: rgba(172, 172, 172, 0.333);
+height: 100vh;
+width: 100vw;
+position: relative; 
+}
+
+.otherLike
+{
+font-size: 30px;
+margin:30px 20px;
+position: absolute;
+top:0;
+}
+
+h2
+{
+font-size: 40px;
+}
+
+p.para
+{
+font-size: 20px;
+}
+
+.findOutMore
+{
+font-size:20px;
+margin-top: 10px;
+width: 40%;
+float:left; 
+}
+
+h3
+{
+margin-top:10px;
+}
+
+h2.Ingredients
+{
+margin:150px 100px;
+}
+
+h2.Equipement
+{
+margin:150px 100px;
+}
+
+h2.Method
+{
+margin:150px 100px;
+}
+
+.findout
+{
+transition:all 0.3s ease 0s;   
+text-decoration: none;
+font-weight: bold;
+color: black;
+list-style: none;
+margin:0;
+}
+
+.findOutMore::after{
+content:'';
+width: 0%;
+height:3px;
+background:black;
+display:block;
+margin:auto;
+transition:0.5s;
+}
+
+.findOutMore:hover::after
+{
+width:100%;
+}
+
+.fixUnderline
+{
+transition:all 0.3s ease 0s;   
+text-decoration: none;
+font-weight: bold;
+color: black;
+list-style: none;
+margin:0;
+}
+
+.mainLogo
+{
+ margin: 0;
+}
+
+ol
+{
+padding-left:270px
+}
+
+.newli2
+{
+font-size: 20px;
+}
+
+.mochaleft
+{
+padding-right:210px;
+}
+
+.cappucinoMove
+{
+padding-left:100px;
+}
+
+.cappucinoMove2
+{
+padding-right: 50px;
+}
+
+.cappucinoMove3
+{
+padding-right: 170px;
+}
+
+.HomePageSlogan
+{
+font-size: 22px;
+}
+
+b{
+    margin:40px;
+}
+
+.container.outside{
+    margin:0px 130px;
+    display:flex;
+}
+
+
+.theform{
+    
+    border:4px solid brown;
+    margin:0;
+    
+}
+
+.theform1{
+    margin:20px 130px;
+    
+}
+
+
+.form-check{
+    margin:10px 10px;
+}
+
+.backg0
+{
+/* background-position:center; */
+background-size: contain;
+background-repeat: no-repeat;
+background-image:url(images/coffecup.png);
+height: 45vh;
+
+width:100%;
+margin-left:200px;
+padding-top:40px;
+/* padding-left:60px; */
+/* position:relative; */
+}
+
+.fixU
+{  
+text-decoration: none;
+list-style: none;
+}

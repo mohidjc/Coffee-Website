@@ -1,0 +1,103 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mo's Coffee</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="advancedFeatures.js"></script>
+</head>
+
+<body>
+    <div id="container2" class="container2">
+        <div id="menu">
+            <div class="brand-logo"><img src="images/mc.png" class="logo2" alt="logo"></div>
+            <div class="menu-item">
+                <a href="HomePage.html"> Home</a>
+                <a href="latte.html"> Latte</a>
+                <a href="americano.html"> Americano</a>
+                <a href="mocha.html"> Mocha</a>
+                <a href="cappucino.html"> Cappucino</a>
+                <a href="Contact.html"> Contact</a>
+            </div>
+        </div>
+
+        <div id="coffee-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class= "da da-map-marker your-address" id="add-address"> Your Address</i>
+                </div>
+
+        
+            </div>
+            <div id="coffee-types">
+
+                <p id="category-name"> Mocha</p>
+                <div class="Mocha">
+                    <a class=fixUnderline ><div class="card card1 cardLarge" onclick="addToCart('Mocha', 'Large', '£ 5')"> <h5> Large </h5><p id="item-price">£ 5</p></div></a>
+                    <a class=fixUnderline ><div class="card card1 cardMedium" onclick="addToCart('Mocha', 'Medium', '£ 4')"> <h5> Medium </h5><p id="item-price">£ 4</p></div></a>
+                    <a class=fixUnderline ><div class="card card1 cardSmall" onclick="addToCart('Mocha', 'Small', '£ 3')"> <h5> Small </h5><p id="item-price">£ 3</p></div></a>
+                </div>
+
+                <p id="category-name"> Latte</p>
+                <div class="Latte">
+                    <a class=fixUnderline ><div class="card card2 cardLarge" onclick="addToCart('Latte', 'Large', '£ 5')"> <h5> Large </h5><p id="item-price">£ 5</p></div></a>
+                    <a class=fixUnderline ><div class="card card2 cardMedium" onclick="addToCart('Latte', 'Medium', '£ 4')"> <h5> Medium </h5><p id="item-price">£ 4</p></div></a>
+                    <a class=fixUnderline ><div class="card card2 cardSmall" onclick="addToCart('Latte', 'Small', '£ 3')"> <h5> Small </h5><p id="item-price">£ 3</p></div></a>
+                </div>
+                
+
+                <p id="category-name"> Cappucino</p>
+                <div class="Cappucino">
+                    <a class=fixUnderline ><div class="card card3 cardLarge" onclick="addToCart('Cappucino', 'Large', '£ 5')"> <h5> Large </h5><p id="item-price">£ 5</p></div></a>
+                    <a class=fixUnderline ><div class="card card3 cardMedium" onclick="addToCart('Cappucino', 'Medium', '£ 4')"> <h5> Medium </h5><p id="item-price">£ 4</p></div></a>
+                    <a class=fixUnderline ><div class="card card3 cardSmall" onclick="addToCart('Cappucino', 'Small', '£ 3')"> <h5> Small </h5><p id="item-price">£ 3</p></div></a>
+                 </div>
+
+                 <p id="category-name"> Americano</p>
+                <div class="Americano">
+                    <a class=fixUnderline ><div class="card card4 cardLarge" onclick="addToCart('Americano', 'Large', '£ 5')"> <h5> Large </h5><p id="item-price">£ 5</p></div></a>
+                    <a class=fixUnderline ><div class="card card4 cardMedium" onclick="addToCart('Americano', 'Medium', '£ 4')"> <h5> Medium </h5><p id="item-price">£ 4</p></div></a>
+                    <a class=fixUnderline ><div class="card card4 cardSmall" onclick="addToCart('Americano', 'Small', '£ 3')"> <h5> Small </h5><p id="item-price">£ 3</p></div></a>
+                 </div>
+            </div>
+        </div>
+
+        <div id="cart" class="cart">
+            <h2 class="h2s">Your Cart</h2>
+
+            <div class="cart-total4">
+                 <span id="total-count" class="count1">0</span>
+            </div>
+
+            <div class="cart-total3">
+                <img alt="About Us" src="images/coffecup.png">
+            </div>
+
+
+
+            <div class="cart-total5">
+                <button  class="button4" onclick="refreshBtn()">
+                    <a class="button4Text" href=#>Clear</a>
+                </button>
+            </div>
+
+            <div class="cart-total">
+                Total: <span id="total-price"  class="total1">£0.00</span>
+            </div>
+
+            <div class="cart-total2">
+                <button class="button3" onclick="Purchased()">
+                    <a class="button3Text" href=#>Checkout</a>
+                </button>
+            </div>
+
+        </div>
+
+
+
+       
+
+    </div>
+</body>

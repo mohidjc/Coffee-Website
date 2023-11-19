@@ -1,0 +1,410 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+}
+
+
+.container2{
+    display:grid;
+    grid-template-columns: 200px 1fr 300px;
+    height:100%;
+    overflow:hidden;
+}
+
+#menu{
+    background:rgba(145, 91, 55, 0.726);
+}
+
+.brand-logo{
+    padding:0 45px;
+}
+
+#coffee-container{
+    background: white;
+    overflow:scroll;
+    overflow-x:hidden;
+    box-sizing: content-box;
+}
+
+.your-address{
+    border: 1px solid brown;
+    color:brown;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 160px;
+    overflow: hidden;
+}
+
+#item-card{
+    width: 180px;
+    height: 220px; 
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+    border-radius: 6px;
+    background: lightgrey;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+#item-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;  
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background:rgb(234, 233, 233);
+    /* z-index: 1; */
+}
+
+#category-name{
+   font-size: 40px;
+   color:brown;
+   text-align: center;
+   
+}
+
+
+
+.da-heart-o{
+    padding: 6px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.toggle-heart{
+    background:orange;
+    color:white;
+}
+
+
+#card-face{
+    display:flex;
+    margin:5px 0;
+    justify-content: space-between;
+}
+
+.Cappucino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:80px;
+}
+
+.Latte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:80px;
+}
+
+.card
+{
+width: 170px;
+height:200px;
+border-radius: 10px;
+padding: 15px 25px;
+cursor: pointer;
+margin: 10px 15px;
+background-image:url(images/mocha.jpg) ; 
+background-size: cover; 
+transition: transform 0.5s;
+font-size: 22px;
+}
+
+.card:hover
+{
+transform: translateY(-10px);
+}
+
+.fixUnderline
+{
+transition:all 0.3s ease 0s;   
+text-decoration: none;
+font-weight: bold;
+color: black;
+list-style: none;
+margin:0;
+}
+
+.cardSmall{
+    width: 100px;
+    height:150px;
+}
+
+.cardMedium{
+    width: 150px;
+    height:200px;
+}
+
+.cardLarge{
+    width: 200px;
+    height:250px;
+}
+
+.card1
+{
+background-image:url(images/Latte.jpg) ; 
+color: whitesmoke;
+}
+
+.card2
+{
+background-image:url(images/mocha.jpg) ; 
+color: #333;
+}
+
+
+.card3
+{
+background-image:url(images/americano.jpg) ; 
+color: #333;
+}
+
+.card4
+{
+background-image:url(images/cappucino.jpg) ; 
+color: whitesmoke;
+}
+
+
+.Mocha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:80px;
+    
+}
+
+.Americano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:80px;
+}
+
+.brand-logo img{
+    width:100px;
+    height:100px;
+}
+
+.menu-item a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding:10px 30px;
+    margin:12px 0;
+    font-weight: 300;
+    color: white;
+}
+
+.menu-item a:hover{
+    background: rgb(183, 162, 134);
+}
+
+#coffee-container{
+    background:rgb(234, 233, 233);
+
+}
+
+#cart{
+    background:rgba(145, 91, 55, 0.726);
+}
+
+
+
+
+
+
+.cart {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .cart h2 {
+    text-align: center;
+    margin: 0 0 20px;
+    color: #333;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 10px;
+
+    position: absolute;
+   padding-bottom: 70px;
+   font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
+  span.count1{
+    color:white; 
+    font-size: 45px;
+  }
+
+  span.total1{
+    color:white; 
+    font-size: 25px;
+  }
+
+  h2.h2s{
+    color:white;  
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px
+  }
+
+  .cart-total2{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .cart-total5{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 270px;
+    left: 52%;
+    transform: translateX(-50%);
+  }
+  
+.cart-total3{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Set the desired width of the child div */
+    height: 50%; /* Set the desired height of the child div */
+}
+
+.cart-total4{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Set the desired width of the child div */
+    height: 50%; /* Set the desired height of the child div */
+   
+}
+
+img{
+    height:300px;
+    width:220px;
+}
+
+  .cart-total span {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .cart-total{
+    color:white;
+  }
+
+  .heading1{
+    color: white; 
+  }
+
+    .button3{
+    background-color: transparent; 
+    border:2px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+
+    font-size: 23px;
+
+    }
+
+    .button3:hover
+    {
+    background:rgb(207, 204, 204);
+    }
+
+    .button3Text
+    {
+    color:white;
+    text-decoration: none;
+    }
+
+
+  
+
+
+
+    .button4{
+        background-color: transparent; 
+        border:2px solid red;
+        color: white;
+        padding: 7px 15px;
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 15px;
+        /* margin-top:30px; */
+        }
+    
+        .button4:hover
+        {
+        background:rgb(167, 120, 120);
+        }
+    
+        .button4Text
+        {
+        color:red;
+        text-decoration: none;
+        }
